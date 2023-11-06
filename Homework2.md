@@ -6,6 +6,10 @@ my work experience, education, and general info about me to entice them into
 hiring me. 
 ## Site Map
 ![Website diagram](<Simple Website Sitemap.png>)
+## Technical requirements
+I believe this website should be hosted fine as a static website on github, I 
+don't think I'll need a backend server to execute server side code. I plan 
+on targeting modern up-to-date browsers, Chrome and Firefox based
 ## Content Requirements
 I will need to collect info about all the IT and Pentesting tools I have used 
 in my job, I'll show various pictures and icons with clickable links about 
