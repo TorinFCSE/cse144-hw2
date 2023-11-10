@@ -4,33 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form.css">
     <title>My Resume</title>
 </head>
 <body>
-        <h1>Contact me with this form!</h1>
-        <form>
+    <nav>
+        <h1>Contact</h1>
+        <ul>
+            <li><a href="./index.html">About Me</a></li>
+            <li><a href="./experience.html">Experience</a></li>
+            <li><a href="./education.html">Education</a></li>
+            <li><a href="./certifications.html">Certifications</a></li>
+            <li><a href="./contact.html">Contact Form</a></li>
+        </ul>
+    </nav>
+    <h1>Contact me with this form!</h1>
+    <form>
+        <fieldset>
             <legend>Contact Form: </legend>
-            <fieldset>
-                <label for="ftype">Choose a car:</label>
-                <select name="ftype" id="ftype">
-                    <option value="recruitment">Recruitment Interest</option>
-                    <option value="freelance">Freelance Offer Interest</option>
-                    <option value="other">Other</option>
-                </select> 
-                <input type="text" id="fname" name="fname"><br><br>
-                <label for="lname">Name:</label>
-                <input type="text" id="lname" name="lname"><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
-                <label for="company">Company:</label>
-                <input type="text" id="company" name="company"><br><br>
-                <p><i>(optional)<i> Request for additional information or documentation:</p>
-                <textarea id="request" name="Special Requests" rows="4" cols="50">
-                </textarea>
-                <button type="submit">Submit</button>
-            </fieldset>
-        </form>
-        
+            <label for="ftype">Reason for Contact:</label>
+            <select name="ftype" id="ftype">
+                <option value="recruitment">Recruitment Interest</option>
+                <option value="freelance">Freelance Offer Interest</option>
+                <option value="other">Other</option>
+            </select> 
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company"><br><br>
+            <p><i>(optional)</i> Request for additional information or documentation:</p>
+            <textarea id="request" name="Special Requests" rows="4" cols="50">
+            </textarea>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    
     <footer>
         <p>&copy; 2023 Torin's Resume</p>
     </footer>
